@@ -10,7 +10,9 @@ import 'package:web_socket_channel/io.dart';
 import 'rest/enums.dart';
 
 class BinanceSpot {
-  final String endpoint = "api.binance.com";
+  // final String endpoint = "api.binance.com";
+  final String endpoint = "https://testnet.binance.vision/api";
+  
   final String wsEndpoint = "wss://stream.binance.com:9443";
   final String prefix = "api/v3";
   int timestampDifference = 0;
